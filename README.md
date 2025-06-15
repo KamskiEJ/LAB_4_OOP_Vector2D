@@ -34,8 +34,8 @@
 Ви можете клонувати репозиторій за допомогою Git:
 
 ```bash
-git clone https://github.com/KamskiEJ/LAB_4_OOP_Vector2D
-cd LAB_4_OOP_Vector2D
+git clone https://github.com/KamskiEJ/Vector2D_LAB_4
+cd Vector2D_LAB_4
 ```
 
 
@@ -115,12 +115,6 @@ python vector2d.py
 
 -----
 
-## 📄 **Ліцензія**
-
-Цей проект ліцензовано на умовах [MIT License](https://opensource.org/licenses/MIT).
-
------
-
 ## 🧑‍💻 **Автор**
 
   * [Корчук Олександр](https://github.com/KamskiEJ)
@@ -130,7 +124,7 @@ python vector2d.py
 ### **Важливі нагадування:**
 
 1.  **Заміни плейсхолдери:**
-      * `https://github.com/KamskiEJ/LAB_4_OOP_Vector2D`
-      * `cd LAB_4_OOP_Vector2D`
+      * `https://github.com/KamskiEJ/Vector2D_LAB_4`
+      * `cd Vector2D_LAB_4`
       * `[Корчук Олександр](https://github.com/KamskiEJ) `
-2.  **Назва файлу:** Переконайся, що в прикладах імпорту (`from vector2d import Vector2D` import Vector2D`) ти використовуєш **правильну назву свого файлу** з класом `Vector2D`.
+2.  **Назва файлу:** Переконайся, що в прикладах імпорту (`from vector2d import Vector2D`) ти використовуєш **правильну назву свого файлу** з класом `Vector2D`.

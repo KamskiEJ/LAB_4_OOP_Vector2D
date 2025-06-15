@@ -1,10 +1,10 @@
 class Vector2D:
     def __init__(self, x, y):
         if not isinstance(x, (int, float)):
-            raise TypeError("Координата X повинна бути числом (ціле абож дробове).")
+            raise TypeError("Координата X має бути числом (ціле абож дробове).")
 
         if not isinstance(y,(int, float)):
-            raise TypeError("Координата Y повинна бути числом (ціле або дробове).")
+            raise TypeError("Координата Y має бути числом (ціле абож дробове).")
 
         self._x = float(x)
         self._y = float(y)

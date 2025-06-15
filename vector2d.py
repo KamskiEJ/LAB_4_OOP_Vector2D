@@ -47,6 +47,28 @@ class Vector2D:
     def __rmul__(self, scalar):
         return self.__mul__(scalar)
 
+    def __eq__(self, other):
+        if not isinstance(other, Vector2D):
+            return NotImplemented
+        return self._x == other._x and self._y == other._y
+
+    def length(self):
+        return (self._x ** 2 + self._y ** 2) ** 0.5
+
+    def magnitude(self):
+        return self.length()
+
+    def normalize(self):
+        current_length = self.length()
+        if current_length == 0:
+            return Vector2D(0, 0)
+        return Vector2D(self._x / current_length, self._y / current_length)
+
+    def dot_product(self, other):
+        if not isinstance(other, Vector2D):
+            raise TypeError("Скалярний добуток можна обчислювати тільки з Vector2D.")
+        return (self._x * other._x) + (self._y * other._y)
+
 
 
 
